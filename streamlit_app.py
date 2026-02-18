@@ -128,7 +128,7 @@ def main_page(submitted: bool, width: int, height: int, num_outputs: int,
                                 "scheduler": scheduler,
                                 "num_inference_steps": num_inference_steps,
                                 "guidance_scale": guidance_scale,
-                                "prompt_strength": prompt_strength,       # you made a mistake here at the key "prompt_stregth" rather than "prompt_strength" at line 131
+                                "prompt_strength": prompt_strength,
                                 "refine": refine,
                                 "high_noise_frac": high_noise_frac
                             }
